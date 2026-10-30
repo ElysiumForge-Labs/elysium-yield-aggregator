@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
+.env
+server.log
+solidity/output/
+
+# Foundry / forge
+forge-cache/
+cache/
+out/
+solidity/out/
+lib/
+.mimosa/  # ZCode Mimosa plugin runtime state (not part of the project)
